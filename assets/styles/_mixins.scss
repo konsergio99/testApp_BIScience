@@ -1,0 +1,18 @@
+@mixin image-block($position, $width, $z-index) {
+  position: $position;
+  width: $width;
+  z-index: $z-index;
+}
+
+@mixin image-settings($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin text-settings($font-family, $font-size, $font-weight, $color, $letter-spacing) {
+  font-family: $font-family, sans-serif;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  color: $color;
+  letter-spacing: $letter-spacing;
+}
