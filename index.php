@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <style>
-        <?php include 'style.css'; ?>
+        <?php require 'style.css'; ?>
     </style>
+
     <meta charset="UTF-8">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="author" content="John Doe">
+    <meta name="keywords" content="Slate,  calendar, Simple planning for freelancers, designed for freelancers">
+    <meta name="description" content="Simple planning for freelancers">
+    <meta name="copyright" content="Slate Team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <meta http-equiv="refresh" content="1">-->
-    <title>Title</title>
+
+
+    <title>Slate - Helping freelancers get their sh*t together</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,20 +23,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <script src="header-email-validation.js"></script>
+    <script src="content-email-validation.js"></script>
+    <script src="about-us-validation.js"></script>
 </head>
 <body>
 <div class="wrapper">
     <header>
         <?php require 'header/header.php';?>
     </header>
-<!--    <main>-->
-<!--        I'm the main-content filling the void!-->
-<!--        --><?php //require 'content/content.php';?>
-<!--    </main>-->
-<!--    <footer>-->
-<!--        I'm a 30px tall footer-->
-<!--        --><?php //require 'footer/footer.php';?>
-<!--    </footer>-->
+    <main>
+        <?php require 'content/content.php';?>
+    </main>
+    <footer>
+        <?php require 'footer/footer.php';?>
+    </footer>
 </div>
 </body>
 </html>

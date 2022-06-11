@@ -5,17 +5,7 @@
 
 .wrapper {
   display: flex;
-  /* Direction of the items, can be row or column */
   flex-direction: column;
-}
-
-header {
-  height: 100vh;
-  width: 100%;
-}
-
-footer {
-  width: 100%;
 }
 
 main {

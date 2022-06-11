@@ -1,0 +1,42 @@
+@import "variables";
+@import "mixins";
+
+//header-buttons settings
+.subscribe-button {
+  @include button-settings(18px 35px, $white, none, 30px);
+  @include text-settings('Roboto', 16px, 500, $pink, 0.2px, 16px);
+}
+
+.try-for-free-button-header {
+  @include button-settings(15px 60px, $white, none, 30px);
+  @include text-settings('Roboto', 22px, 700, $blue, 0.1px, 33px);
+  margin: 60px 0;
+}
+
+//content-buttons settings
+.try-for-free-button-content {
+  @include button-settings(15px 60px, $blue, none, 30px);
+  @include text-settings('Roboto', 22px, 700, $white, 0.1px, 33px);
+  margin: 60px 0;
+}
+
+.order-button {
+  @include button-settings(15px 60px, $blue, none, 30px);
+  @include text-settings('Roboto', 16px, 500, $white, 0.2px, 16px);
+}
+
+.business-order-button {
+  @include button-settings(15px 60px, $white, none, 30px);
+  @include text-settings('Roboto', 16px, 500, $pink, 0.2px, 16px);
+}
+
+.subscribe-btn {
+  @include button-settings(18px 135px, $pink, none, 30px);
+  @include text-settings('Roboto', 16px, 500, $white, 0.2px, 16px);
+  margin: 15px;
+}
+
+.send-btn {
+  @include button-settings(10px 35px, $pink, none, 30px);
+  @include text-settings('Roboto', 12px, 500, $white, 0.1px, 12px);
+}

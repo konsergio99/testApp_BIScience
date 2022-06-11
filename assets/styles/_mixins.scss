@@ -9,10 +9,28 @@
   height: $height;
 }
 
-@mixin text-settings($font-family, $font-size, $font-weight, $color, $letter-spacing) {
+@mixin text-settings($font-family, $font-size, $font-weight, $color, $letter-spacing, $line-height) {
   font-family: $font-family, sans-serif;
   font-size: $font-size;
   font-weight: $font-weight;
   color: $color;
   letter-spacing: $letter-spacing;
+  line-height: $line-height;
 }
+
+@mixin field-settings($width, $padding, $border, $border-radius, $box-sizing, $background) {
+  width: $width;
+  padding: $padding;
+  border: $border;
+  border-radius: $border-radius;
+  box-sizing: $box-sizing;
+  background: $background;
+}
+
+@mixin button-settings($padding, $background, $border, $border-radius) {
+  padding: $padding;
+  background: $background;
+  border: $border;
+  border-radius: $border-radius;
+}
+

@@ -1,0 +1,27 @@
+@media screen and (max-width: 1270px) {
+  .footer-block {
+    height: 100%;
+    padding: 0 0;
+  }
+  .footer-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pages-block {
+    margin-top: 80px;
+    align-items: center;
+  }
+  .map-block {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 55px 55px;
+  }
+  .img-map-size {
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=footer-mobile.css.map */

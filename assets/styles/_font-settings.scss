@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixins";
+
+.text-size-12-white {
+  @include text-settings('Roboto', 12px, 700, $white, 0.1px, 18px);
+}
+
+.text-size-12-black {
+  @include text-settings('Roboto', 12px, 700, $dark-blue, 0.1px, 18px);
+}
+
+.text-size-15-white {
+  @include text-settings('Roboto', 15px, 400, $white, 0.2px, 27px);
+}
+
+.text-size-15-black {
+  @include text-settings('Roboto', 15px, 400, $dark-blue, 0.2px, 27px);
+}
+
+.text-size-16-white {
+  @include text-settings('Roboto', 16px, 700, $white, 0.2px, 20px);
+}
+
+.text-size-16-black {
+  @include text-settings('Roboto', 16px, 700, $dark-blue, 0.2px, 20px);
+}
+
+.text-size-18-white {
+  @include text-settings('Roboto', 18px, 400, $white, 0.2px, 27px);
+}
+
+.text-size-22-white {
+  @include text-settings('Roboto', 22px, 700, $white, 0.1px, 33px);
+}
+
+.text-size-22-black {
+  @include text-settings('Roboto', 22px, 700, $dark-blue, 0.1px, 33px);
+}
+
+.text-size-46-white {
+  @include text-settings('Roboto', 46px, 400, $white, 0.2px, 57px);
+  padding: 20px;
+}
+
+.text-size-46-black {
+  @include text-settings('Roboto', 46px, 400, $dark-blue, 0.2px, 57px);
+}
+
+.text-size-55-white {
+  @include text-settings('Roboto', 55px, 900, $white, 0.2px, 65px);
+}
+
+.text-size-55-black {
+  @include text-settings('Roboto', 55px, 900, $dark-blue, 0.2px, 65px);
+}

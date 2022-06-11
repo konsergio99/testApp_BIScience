@@ -1,0 +1,22 @@
+@import "variables";
+@import "mixins";
+
+.nav-input {
+  @include field-settings(274px, 18px 37px, 0 solid #ccc, 50px, border-box, $white);
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.content-input {
+  @include field-settings(340px, 18px 37px, 0 solid #ccc, 50px, border-box, $white);
+}
+
+.about-us-name-input {
+  @include field-settings(320px, 10px 35px, 0 solid #ccc, 50px, border-box, $light-gray);
+}
+
+.text-form-field {
+  @include field-settings(320px, 10px 35px, 0 solid #ccc, 10px, border-box, $light-gray);
+  height: 120px;
+  resize: none;
+}

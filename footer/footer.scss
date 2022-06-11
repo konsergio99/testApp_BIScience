@@ -1,3 +1,58 @@
-.test-3 {
-  color: blue;
+@import "../assets/styles/variables";
+@import "../assets/styles/mixins";
+
+.footer-block {
+  width: 100%;
+  padding: 100px 0;
+  background: $dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-margin {
+  margin-bottom: 15px;
+}
+
+.footer-content {
+  width: 1030px;
+  display: flex;
+  align-items: center;
+}
+
+.pages-block {
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-block {
+  width: 470px;
+  padding: 0 55px;
+}
+
+.img-map-size {
+  width: 100%;
+}
+
+.about-item-block {
+  display: flex;
+  align-items: center;
+}
+
+.contact-block {
+  width: 265px;
+}
+
+.about-item-block {
+  display: flex;
+  align-items: center;
+}
+
+.about-us-data {
+  padding: 0 0;
+  width: 265px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
 }

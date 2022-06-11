@@ -1,0 +1,101 @@
+@import "variables";
+@import "mixins";
+
+.success-error-block-header {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  top: 110px;
+  display: none;
+}
+
+.error-block-hidden-header {
+  display: none;
+}
+
+.error-block-visible-header {
+  display: flex;
+  justify-content: end;
+}
+
+.error-text-header {
+  margin-right: 240px;
+  @include text-settings('Roboto', 16px, 400, #f52222, 0.2px, 20px);
+}
+
+.success-text-header {
+  margin-right: 210px;
+  @include text-settings('Roboto', 16px, 400, #d2d8f1, 0.2px, 20px);
+}
+
+.success-error-block-content {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.success-text-content {
+  margin-left: 50px;
+  padding-top: 10px;
+  @include text-settings('Roboto', 16px, 400, #d2d8f1, 0.2px, 20px);
+}
+
+.error-text-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @include text-settings('Roboto', 16px, 500, #f52222, 0.2px, 20px);
+}
+
+.success-error-block-name {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.success-text-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @include text-settings('Roboto', 16px, 400, #99f365, 0.2px, 20px);
+}
+
+.error-text-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @include text-settings('Roboto', 12px, 500, #f52222, 0.2px, 20px);
+}
+
+.success-error-block-email {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.success-text-email {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @include text-settings('Roboto', 12px, 400, #99f365, 0.2px, 20px);
+}
+
+.error-text-email {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @include text-settings('Roboto', 12px, 500, #f52222, 0.2px, 20px);
+}
+
+.success-error-block-form {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.success-text-form {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  @include text-settings('Roboto', 15px, 400, $dark-blue, 0.2px, 20px);
+}

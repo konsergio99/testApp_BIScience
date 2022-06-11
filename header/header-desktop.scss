@@ -1,5 +1,9 @@
 @import "../assets/styles/variables";
 @import "../assets/styles/mixins";
+@import "../assets/styles/font-settings";
+@import "../assets/styles/button_settings";
+@import "../assets/styles/input-settings";
+@import "../assets/styles/success-error";
 
 %row-flex-settings {
   display: flex;
@@ -7,12 +11,12 @@
   align-items: center;
 }
 
-.header-display {
+.header-display-block {
   height: 950px;
-  background: $app-background-color;
+  background: $dark-blue;
 }
 
-.header-block {
+.nav-block {
   position: absolute;
   z-index: 3;
   width: 100%;
@@ -21,26 +25,13 @@
   @extend %row-flex-settings;
 }
 
-.header-section {
+.nav-section {
   @extend %row-flex-settings;
+  margin-right: 40px;
 }
 
-.subscribe-button {
-  margin: 0 40px 0 12px;
-  padding: 18px 35px;
-  background: $white-color;
-  @include text-settings('Roboto', 15px, 500, $button-subscribe-color, 0.2px);
-  border: 1px solid $input-field-color;
-  border-radius: 30px;
-}
-
-input[type=text] {
-  width: 274px;
-  margin-left: 30px;
-  padding: 18px 37px;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  box-sizing: border-box;
+.content {
+  padding: 20px 0;
 }
 
 ul {
@@ -50,12 +41,12 @@ ul {
   justify-content: space-around;
 }
 
-.first-img {
+.first-background-image {
   @include image-block(absolute, 100%, 2);
   @include image-settings(100%, 790px);
 }
 
-.second-img {
+.second-background-img {
   @include image-block(absolute, 100%, 1);
   @include image-settings(100%, 940px);
 }
@@ -66,16 +57,15 @@ ul {
   margin-left: 50px;
 }
 
-.menu-img {
+.mobile-menu-img {
   display: none;
 }
 
-.text {
-  @include text-settings('Roboto', 15px, 300, $white-color, 0.2px);
-  line-height: 27px;
+.header-text-phone {
+  display: none;
 }
 
-.header-content-container {
+.header-content-block {
   @include image-block(absolute, 100%, 2);
   display: flex;
   justify-content: start;
@@ -90,33 +80,11 @@ ul {
   display: none;
 }
 
-.header-content-box {
+.header-content {
   width: 310px;
   height: 200px;
   position: relative;
   z-index: 2;
   top: 335px;
   margin-left: -40px;
-
-  .header-text-phone {
-    display: none;
-  }
-
-  .header-text-desktop {
-    @include text-settings('Roboto', 55px, 900, $white-color, 0.2px);
-  }
-
-  .content-text {
-    margin-top: 25px;
-    @include text-settings('Roboto', 16px, 700, $white-color, 0.2px);
-  }
-
-  .try-to-free-button {
-    margin-top: 80px;
-    padding: 15px 60px;
-    background: $white-color;
-    @include text-settings('Roboto', 22px, 700, $button-try-to-free-color, 0.1px);
-    border: 1px solid $input-field-color;
-    border-radius: 30px;
-  }
 }

@@ -1,0 +1,190 @@
+.text-size-12-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1px;
+  line-height: 18px;
+}
+
+.text-size-12-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(37, 43, 66);
+  letter-spacing: 0.1px;
+  line-height: 18px;
+}
+
+.text-size-15-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2px;
+  line-height: 27px;
+}
+
+.text-size-15-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(37, 43, 66);
+  letter-spacing: 0.2px;
+  line-height: 27px;
+}
+
+.text-size-16-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
+.text-size-16-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(37, 43, 66);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
+.text-size-18-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2px;
+  line-height: 27px;
+}
+
+.text-size-22-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1px;
+  line-height: 33px;
+}
+
+.text-size-22-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(37, 43, 66);
+  letter-spacing: 0.1px;
+  line-height: 33px;
+}
+
+.text-size-46-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2px;
+  line-height: 57px;
+  padding: 20px;
+}
+
+.text-size-46-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  color: rgb(37, 43, 66);
+  letter-spacing: 0.2px;
+  line-height: 57px;
+}
+
+.text-size-55-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.2px;
+  line-height: 65px;
+}
+
+.text-size-55-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+  color: rgb(37, 43, 66);
+  letter-spacing: 0.2px;
+  line-height: 65px;
+}
+
+@media screen and (max-width: 1270px) {
+  .second-content-block {
+    padding-top: 0;
+  }
+  .content-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+  .content-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .content-item {
+    margin-right: 0;
+    padding-bottom: 100px;
+  }
+  .text-size-22-white {
+    padding-top: 0;
+  }
+  .macbook-image {
+    margin-bottom: 100px;
+  }
+  .test-text-2 {
+    display: none;
+  }
+  .text-size-16-white {
+    width: 330px;
+  }
+  .partners-block {
+    width: auto;
+  }
+  .first-partners-section {
+    flex-direction: column;
+  }
+  .second-partners-section {
+    display: none;
+  }
+  .pricing-block {
+    width: auto;
+    flex-direction: column;
+  }
+  .contact-us-block {
+    height: 100%;
+    padding-top: 50px;
+  }
+  .about-us-form-block {
+    width: auto;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us-data {
+    margin: 50px 0;
+    order: 1;
+  }
+  .about-us-form {
+    order: 2;
+    padding: 15px 15px;
+  }
+  .link-block {
+    width: 250px;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=content-mobile.css.map */

@@ -1,0 +1,269 @@
+@import "../assets/styles/variables";
+@import "../assets/styles/mixins";
+@import "../assets/styles/font-settings";
+@import "../assets/styles/success-error";
+
+.content-container {
+  width: 100%;
+  background: $dark-blue;
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-block {
+  padding: 65px;
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.features-item-header {
+  width: 190px;
+}
+
+.features-item-text {
+  width: 255px;
+  padding-top: 20px;
+}
+
+.pre-subscribe {
+  padding: 35px 0
+}
+
+.client-name {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.client-describe {
+  width: 220px;
+  text-align: center;
+}
+
+.fast-prototyping {
+  width: 300px;
+  display: block;
+  text-align: center;
+}
+
+.circle-icon {
+  width: 45px;
+  margin-right: 10px;
+}
+
+.second-content-block {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.macbook-image {
+  width: 70%;
+  margin-bottom: 200px;
+}
+
+.partners-block {
+  width: 810px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-header-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 0 100px 0;
+}
+
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.image-partner-container {
+  width: 125px;
+  height: 125px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-partner-width {
+  width: 100px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0 150px 0;
+}
+
+.testimonials-header {
+  margin-bottom: 100px;
+}
+
+.testimonial-dropbox {
+  width: 230px;
+  margin-bottom: 50px
+}
+
+.testimonials-icon {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.organize-block {
+  display: flex;
+  margin: 50px;
+}
+
+.organize-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricing-block {
+  width: 1100px;
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.centered {
+  text-align: center;
+}
+
+.pricing-item {
+  margin-bottom: 50px;
+  width: 250px;
+  height: 230px;
+  background: $white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.price-block {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.pocket-price {
+  margin-right: 10px;
+}
+
+.pocket-describe {
+  margin-bottom: 30px;
+}
+
+.currency-period {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.business-item-background {
+  border: 1px solid $white;
+  background: linear-gradient(45deg, rgba(239, 39, 121, 1), rgba(120, 52, 190, 1));
+}
+
+.contact-us-block {
+  width: 100%;
+  height: 100vh;
+  background: $light-blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header {
+  margin-bottom: 30px;
+}
+
+.about-us-form-block {
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-form {
+  margin: 50px 0;
+  width: 320px;
+  padding: 25px 40px;
+  background: $white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.send-btn-block {
+  width: 100%;
+  display: flex;
+}
+
+.about-us-data {
+  margin: 120px 0 0 0;
+  padding: 80px 0;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-about {
+  width: 25px;
+  margin-right: 20px;
+  padding-left: 3px;
+}
+
+.img-link {
+  width: 35px;
+  margin-right: 20px;
+}
+
+.about-item-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.link-block {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
